@@ -11,8 +11,8 @@ package model;
 public class Product {
     String Name;
     String Description;
-    String Price;
     String Availability;
+    String Price;
 
     public String getName() {
         return Name;
@@ -30,6 +30,14 @@ public class Product {
         this.Description = Description;
     }
 
+    public String getAvailability() {
+        return Availability;
+    }
+
+    public void setAvailability(String Availability) {
+        this.Availability = Availability;
+    }
+
     public String getPrice() {
         return Price;
     }
@@ -38,11 +46,4 @@ public class Product {
         this.Price = Price;
     }
 
-    public String getAvailability() {
-        return Availability;
-    }
-
-    public void setAvailability(String Availability) {
-        this.Availability = Availability;
-    }
-}
+ 
