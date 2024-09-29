@@ -5,17 +5,18 @@
 package UI;
 
 import javax.swing.JOptionPane;
-import model.Product;
+
 
 /**
  *
  * @author Lenovo
  */
 public class CreateJPanel extends javax.swing.JPanel {
-    Product product;
+   product p;
 
     /**
      * Creates new form CreateJPanel
+     * @param p
      */
     public CreateJPanel(Product p) {
         product = p;

@@ -14,6 +14,7 @@ public class ViewJPanel extends javax.swing.JPanel {
     Product product;
     /**
      * Creates new form ViewJPanel
+     * @param p
      */
     public ViewJPanel(Product p) {
         initComponents();
